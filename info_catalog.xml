@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CATALOG>
+  <INFO>
+    <TITLE>Cat Breed #1</TITLE>
+    <BREEDNAME>The Main Coon</BREEDNAME>
+    <BREEDTYPE>Large Domesticated Cat</BREEDTYPE>
+    <ORIGIN>Maine, United States</ORIGIN>
+    <LENGTH>19-40 inches</LENGTH>
+    <WEIGHT>15-25lbs</WEIGHT>
+  </INFO>
+  <INFO>
+    <TITLE>Cat Breed #2</TITLE>
+    <BREEDNAME>The Abyssinian</BREEDNAME>
+    <BREEDTYPE>Domestic Short-Haired Cat</BREEDTYPE>
+    <ORIGIN> Ethiopia, South East Asia</ORIGIN>
+    <LENGTH>12-16 inches</LENGTH>
+    <WEIGHT>18-12lbs</WEIGHT>
+  </INFO>
+  <INFO>
+    <TITLE>Cat Breed #3</TITLE>
+    <BREEDNAME>The Siamese Cat</BREEDNAME>
+    <BREEDTYPE>Distinctly Recognized Breed of Asian Cat.</BREEDTYPE>
+    <ORIGIN>Thailand</ORIGIN>
+    <LENGTH>27-21 cm</LENGTH>
+    <WEIGHT>2.5-4.5kg</WEIGHT>
+  </INFO>
+  <INFO>
+    <TITLE>Cat Breed #4</TITLE>
+    <BREEDNAME>The Ragdoll</BREEDNAME>
+    <BREEDTYPE>Semi-Longhair Cat</BREEDTYPE>
+    <ORIGIN> Riverside</ORIGIN>
+    <LENGTH>N/A</LENGTH>
+	<WEIGHT>N/A</WEIGHT>
+  </INFO>
+  <INFO>
+    <TITLE>Cat Breed #5</TITLE>
+    <BREEDNAME>The Norwegian Forest Cat</BREEDNAME>
+    <BREEDTYPE>Domestic Cat</BREEDTYPE>
+    <ORIGIN>Norway</ORIGIN>
+	<LENGTH>N/A</LENGTH>
+    <WEIGHT>8-18lbs</WEIGHT>
+  </INFO>
+  <INFO>
+    <TITLE>Cat Breed #6</TITLE>
+    <BREEDNAME>The Birman"</BREEDNAME>
+    <BREEDTYPE>Domestic Cat</BREEDTYPE>
+    <ORIGIN> Myanmar (Burma), France</ORIGIN>
+    <LENGTH>12-16 Years</LENGTH>
+    <WEIGHT>10-12lbs</WEIGHT>
+  </INFO>
+  <INFO>
+    <TITLE>Cat Breed #7</TITLE>
+    <BREEDNAME>The Japanese Bobtail</BREEDNAME>
+    <BREEDTYPE>Domestic Cat</BREEDTYPE>
+    <ORIGIN>Japan, South East Asia</ORIGIN>
+    <LENGTH>15 Years</LENGTH>
+    <WEIGHT>5-10lbs</WEIGHT>
+  </INFO>
+  <INFO>
+    <TITLE>Cat Breed #8</TITLE>
+    <BREEDNAME>The Munchkin</BREEDNAME>
+    <BREEDTYPE>New Breed</BREEDTYPE>
+    <ORIGIN>United States</ORIGIN>
+    <LENGTH>15 Years</LENGTH>
+    <WEIGHT>4-8lbs</WEIGHT>
+  </INFO>
+  <INFO>
+    <TITLE>Cat Breed #9</TITLE>
+    <BREEDNAME>The Turkish Angora</BREEDNAME>
+    <BREEDTYPE>Domestic Cat</BREEDTYPE>
+    <ORIGIN>Turkey</ORIGIN>
+    <HEIGHT>9-14 inches</HEIGHT>
+    <WEIGHT>5-9lbs</WEIGHT>
+  </INFO>
+  <INFO>
+    <TITLE>Cat Breed #10</TITLE>
+    <BREEDNAME>Tonkinese</BREEDNAME>
+    <BREEDTYPE>Domestic Cat</BREEDTYPE>
+    <ORIGIN>United States, Thailand, Canada</ORIGIN>
+    <LENGTH>12-15 inches</LENGTH>
+    <WEIGHT>6-12lbs</WEIGHT>
+  </INFO>
+  <INFO>
+    <TITLE>Cat Breed #11</TITLE>
+    <BREEDNAME>The Ragamuffin</BREEDNAME>
+    <BREEDTYPE>Domestic Cat</BREEDTYPE>
+    <ORIGIN>California</ORIGIN>
+	<LENGTH>N/A</LENGTH>
+	<WEIGHT>N/A</WEIGHT>
+  </INFO>
+  <INFO>
+    <TITLE>Cat Breed #12</TITLE>
+    <BREEDNAME>A Cornish Rex</BREEDNAME>
+    <BREEDTYPE>Domestic Cat</BREEDTYPE>
+    <ORIGIN> United Kingdom, Cornwall, England</ORIGIN>
+    <LENGTH>15 Years</LENGTH>
+    <WEIGHT>5-8lbs</WEIGHT>
+  </INFO>
+  <INFO>
+    <TITLE>Cat Breed #13</TITLE>
+    <BREEDNAME>The Selkirk Rex</BREEDNAME>
+    <BREEDTYPE>Highly Curled Hair</BREEDTYPE>
+    <ORIGIN>United States</ORIGIN>
+    <LENGTH>14 Years</LENGTH>
+    <WEIGHT>16lbs</WEIGHT>
+  </INFO>
+  <INFO>
+    <TITLE>Cat Breed #14</TITLE>
+    <BREEDNAME>The Javanese</BREEDNAME>
+    <BREEDTYPE>Colorpoint Longhair</BREEDTYPE>
+    <ORIGIN> United States, Canada, South East Asia</ORIGIN>
+	<LENGTH>N/A</LENGTH>
+    <WEIGHT>5-10lbs</WEIGHT>
+  </INFO>
+  <INFO>
+    <TITLE>Cat Breed #15</TITLE>
+    <BREEDNAME>The Burmilla</BREEDNAME>
+    <BREEDTYPE>Domestic Cat</BREEDTYPE>
+    <ORIGIN>United Kingdom</ORIGIN>
+	<LENGTH>N/A</LENGTH>
+    <WEIGHT>3-6 kg.</WEIGHT>
+  </INFO>
+  </CATALOG>
+ 

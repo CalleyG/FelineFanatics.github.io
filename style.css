@@ -1,0 +1,999 @@
+/* style.css/ Calley Garvin/ ITWP 1450/ External CSS File Sheet 
+for the WebProject */
+
+
+/* External CSS properties for Project from the freehtml5pinkdrop downloaded files  */
+
+HTML5 display-role reset for older browsers 
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+   display: block;
+}
+ 
+/*CSS from the freehtml5pinkdrop downloaded files */
+
+
+
+html
+{ height: 100%;
+
+}
+
+*
+{ margin: 0;
+  padding: 0;}
+
+
+body
+{ font: normal 90% Arial, Helvetica, sans-serif;
+  color: #000;
+  padding: 0 20px 20px 20px;
+}
+
+
+p
+{ padding: 0 0 10px 0;
+  line-height: 1.7em;
+  font-size: 100% }
+
+img
+{ border: 0;}
+
+h1, h3, h4, h5, h6 
+{ font: bold 170% Papyrus, Arial, sans-serif;
+  color: #F6398D;
+  text-shadow: 1px 1px 	#1E90FF;
+  margin: 20px 0 10px 0;}
+
+  
+ 
+
+h2
+{ font: bold 150% Papyrus, Arial, sans-serif;
+  color: #1E90FF;
+  text-shadow: 1px 2px 	#fff;
+  font-size: 30px;
+  text-align: center;
+}
+
+h3
+{ font: bold 120% Papyrus, Arial, sans-serif;}
+
+h4, h5, h6
+{ margin: 0;
+  padding: 0 0 0px 0;
+  font: normal 120% Papyrus, Arial, sans-serif;
+  color: #FFF;
+  line-height: 1.5em;}
+
+h5, h6
+{ font: normal 95% Papyrus, Arial, sans-serif;
+  color: #888;
+  padding-bottom: 15px;}
+  
+span
+{ color: #000;}
+
+a, a:hover
+{ color: #000;
+  background: transparent;
+  outline: none;
+  text-decoration: none;}
+
+a:hover
+{ color:#FFF;
+  text-decoration: none;}
+
+  a:visited{ 
+    color: #1E90FF;
+    text-decoration: underline;
+   }
+
+ul
+{ margin: 2px 0 22px 30px;
+  line-height: 1.7em;
+  font-style: normal;
+  font-size: 100%;}
+
+ol
+{ margin: 8px 0 22px 20px;}
+
+ol li
+{ margin: 0 0 11px 0;}
+
+#main, header, #banner, #menubar, #site_content, footer, #content_grey, nav, #header_section
+{ margin-left: auto; 
+  margin-right: auto;
+}
+  
+header
+{ position: relative;
+  background:pink; 
+  height: 350px;
+  width: 1600px;
+  margin-left: -100px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;}
+  /*@media screen and (max-width: 1200px) {
+    header{
+      height: 350px;
+      margin-left: 200px;
+      width: 2000px;
+    }
+  }*/
+
+
+
+  
+#header_section
+{ width: 500px;
+  height: 60px;
+  margin-left: 100px;} 
+  /*@media screen and (max-width: 500px) {
+    #header_section {
+    margin-left: 50px;
+  }
+  }*/
+
+
+.searchbox{
+  padding-left: 500px;
+  margin-right: 200px;
+  margin-top: -40px;
+	color: #F6398D;
+	position:relative;
+	text-align: right;
+
+}
+
+@media screen and (min-width: 300px) and (max-width: 960px) {
+  .searchbox {
+  padding-left: 370px ;
+  padding-top: 80px;
+  margin-right: 10px;}
+}
+
+.breadcrumbs {
+  text-indent: 200px; font-weight: bold;
+}
+@media screen and (max-width: 900px) {
+  .breadcrumbs {
+    display: none;
+  }
+}
+  
+#welcome
+{ width: 280px;
+  margin: 0 auto;
+  padding: 18px 0 10px 0;
+  background: transparent;} 
+   
+#welcome h2
+{ font: normal 300% Papyrus, Arial, sans-serif;
+  letter-spacing: -2px;
+  text-shadow: 1px 1px #FFF;
+  color: #F6398D;}
+
+
+
+.addOn /*I added this id tag to this ready made CSS file to make adjustments in my welcome headers*/
+{ font: normal 400% Papyrus, Arial, sans-serif;
+  letter-spacing: -2px;
+  line-height: 120%;
+  text-shadow: 1px 1px #FFF;
+  color: #F6398D;
+  text-align:center;
+}
+  
+nav
+{ width: 900px;
+  height: 50px;
+  margin: 15px 0 0 350px;
+}   
+
+  
+ul#nav
+{ margin:0;
+  float: left;}
+ 
+
+ul#nav li
+{ padding: 0 0 0 0px;
+  list-style: none;
+  margin: 2px 0 0 0;
+  display: inline;
+  text-align: center;   
+  background: transparent;}
+  @media (max-width: 800px) {
+    ul#nav li {display: block;}
+  }
+  
+
+ul#nav li a
+{ font: bold 110% Arial, Helvetica, sans-serif;
+  height: 24px;
+  margin: 10px 0 0 20px;
+  text-shadow: 1px 1px #000;
+  padding: 6px 10px 6px 10px;
+  background: transparent; 
+  text-align: center;
+  color: #FFF;
+  text-decoration: none;} 
+ 
+  
+ul#nav li.current a, ul#nav li:hover a
+{ text-shadow: 1px 1px #000;
+  color: #FFF;
+  background: #F6398D;
+  border-radius: 7px 7px 7px 7px;}
+
+#site_content  /*styles/sizes the paragraphs and all site content including the sidebar*/
+{ width: 940px;
+  padding-top: 50px;
+  overflow: hidden;
+  margin: 10px 10px 10px 220px;}
+
+.sidebar_container /*right/pink sidebar*/
+{ float: right;
+  width: 240px;
+  margin-top: 20px;
+  padding-left: 20px;
+  color: #FFF;
+  background: #F6398D;}
+
+.sidebar /*styles/the right/pink sidebar*/
+{ float: left;
+  width: 240px;
+  margin: 0 0px 10px 0;}
+
+.sidebar_item
+{ width: 220px;}
+
+.sidebar h2F
+{ padding: 5px 0 0 0;
+  font: bold 150% Papyrus, Arial, sans-serif;
+  height: 30px;
+  color: #FFF;
+  text-shadow: none;
+  } 
+  
+.sidebar h3, .sidebar p, .sidebar a
+{ color: #FFF;
+  text-shadow: none;
+}
+
+#content /*styles/sizes the paragraphs and all site content including the sidebar*/
+{ width: 940px;
+  margin: 50px 0px 20px 0;
+  float: left;
+  text-align: center;}
+
+.content_item
+{ float: left;
+  width: 650px;
+  margin-bottom: 20px;}
+ 
+.content_imagetext
+{ width: 620px;
+  padding: 5px;
+  margin: 20px 0 0 0;
+  float: left;}
+ 
+.content_image
+{ float: left; 
+  width: 150px;
+  height: 150px;
+  margin: 0 20px 10px 0;}
+  
+.content_container
+{ width: 300px;
+  padding: 5px;
+  margin: 20px 10px 0 0;
+
+ }
+  
+  
+/*I added this additional class to style my Funny Feline and Maru the Cat paragraphs*/  
+.content_addOn { 
+  width: 600px;
+  margin: 0 10px 20px 0;
+  text-align: center;
+}
+
+
+
+/*I added this additional class to style my autofill input box for Project 5*/  
+.autoinput_style { 
+  width: 220px;
+  margin: 0 10px 0 0;
+  text-align: center;
+}
+  
+footer
+{ padding: 50px 180px;
+  width: 900px;
+  font-weight: bold;
+  text-align: center; 
+  color: #202501;}
+
+footer a
+{ color: #202501;
+  text-decoration: none;
+  padding-bottom: 20px;}
+
+footer a:hover
+{ text-decoration: underline;
+  color: #202501;}
+
+  .button_small2
+  { font: normal 120% Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 10px 5px 5px 0px;
+    margin-left:200px;
+    width: 350px;
+    border: 1px solid rgb(139,0,139); 
+    background: #F6398D;
+    border-radius: 7px 7px 7px 7px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;}
+  
+    .button_small3
+    { font: normal 120% Arial, Helvetica, sans-serif;
+      color:#000;
+      text-align: center;
+      padding: 20px 5px 10px 0px;
+      margin-top: -30px;
+      margin-left:80px;
+      width: 500px;
+      height: 35px;
+      border: 1px solid rgb(139,0,139); 
+      background: #F6398D;
+      border-radius: 7px 7px 7px 7px;
+      box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;}
+    
+ 
+ .button_small
+{ font: normal 120% Arial, Helvetica, sans-serif;
+  padding: 5px 15px 7px 10px;
+  margin: 5px 5px 0 25px;
+  border: 1px solid rgb(139,0,139); 
+  background: #F6398D;
+  border-radius: 7px 7px 7px 7px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;}
+
+
+  
+.button_small a
+{ color: #FFF;
+  padding-left: 5px;
+  text-shadow: 1px 1px #000;
+  text-decoration: none;}
+
+/* styles the numeric form Layout for project 2*/
+
+.form_settings
+{ margin: 20px 0 0 0;}
+
+.form_settings p
+{ padding: 0 0 10px 0;
+ }
+
+.form_settings span
+{ float: left; 
+  	width: 400px; 
+  	text-align: left;
+}
+  
+.form_settings input, .form_settings textarea{
+	margin: 2px 0 0 100px;
+    padding: 0px 10px 0px 10px;
+	width: 30%; 
+	font: 100% arial; 
+	border: 4px solid pink;
+	background: #FFF; 
+	color: #47433F;
+}
+  
+.form_settings input[type="checkbox"]
+{ padding: 2px 0; 
+  width: 15px; 
+  font: 100% arial; 
+  border: 0; 
+  background: #FFF; 
+  color: #47433F;
+  margin: 28px 0;}
+
+.form_settings .submit
+{ font: 100% arial; 
+  border: 3px solid rgb(255,182,193); 
+  width: 85px; 
+  float:right;
+  margin: 10px 70px 60px 0px; 
+  height: 26px;
+  padding: 0px 0 3px 0;
+  cursor: pointer; 
+  background:  rgb(139,0,139);
+  border-radius: 7px 7px 7px 7px;
+  box-shadow: rgb(255,182,193, 0.5) 0px 0px 5px;
+  color: #FFF;
+  text-shadow: 1px 1px rgb(255,182,193);}
+
+
+
+.form_settings .reset
+{ font: 100% arial; 
+  border: 3px solid rgb(255,182,193); 
+  width: 85px; 
+  float: left;  
+  margin: 0 50px 0 65px; 
+  height: 26px;
+  padding: 2px 0 3px 0;
+  cursor: pointer; 
+  background: rgb(139,0,139); /*I changed this color from black to purple to match the theme of my website*/
+  border-radius: 7px 7px 7px 7px;
+  box-shadow: rgb(255,182,193, 0.5) 0px 0px 5px;
+  color: #FFF;
+  text-shadow: 1px 1px rgb(255,182,193);}
+  
+  
+  
+  
+  
+ /* form layout*/
+  .form_layout { 
+	margin: 15px 0 0 0;
+	
+	}
+	
+   
+
+.form_layout p { 
+	padding: 0 0 4px 0;
+	
+	}
+
+.form_layout span { 
+	float: left; 
+  	width: 400px; 
+  	text-align: left;
+	
+	}
+	
+  
+.form_layout input, .form_layout textarea {
+	padding: 5px 150px 0px 0px; 
+	width: 175px; 
+	font: 100% arial; 
+	border: 4px solid pink;
+	background: #FFF; 
+	color: #47433F;
+}
+
+
+
+
+#check_age { /*check age button styled for Project 2*/
+   font: 100% arial; 
+	border-radius: 25px;
+  	border: 4px solid pink; 
+  	width: 100px; 
+  	margin: 10px 100px 0 95px; 
+  	height: 33px;
+  	padding: 2px 0 3px 0;
+  	cursor: pointer; 
+  	background:rgb(139,0,139); /*I changed this color from black to purple to match the theme of my website*/
+  	color: #fff;
+	text-shadow: 1px 1px rgb(255,182,193);
+	}
+	
+	
+#check_ageStyle { /* Tag added to style the first numeric section values for Project 2*/
+	text-align: right; 
+    width: 20%;	
+	margin: 0 20px 0 150px;
+	padding: 10px 200px 30px 10px;
+
+	}
+	 
+	 
+
+  
+.form_layout .submit { 
+	font: 100% arial; 
+	border-radius: 25px;
+  	border: 4px solid pink; 
+  	width: 100px; 
+  	margin: 0 0 0 50px; 
+  	height: 33px;
+  	padding: 2px 0 3px 0;
+  	cursor: pointer; 
+  	background: rgb(139,0,139); /*I changed this color from black to purple to match the theme of my website*/
+  	color: #fff;
+
+	}
+
+	
+.form_layout .submit2 { /*I added this to center the submit button for Project 2*/
+	font: 100% arial; 
+	border-radius: 25px;
+  	border: 4px solid pink; 
+  	width: 100px; 
+  	margin: 0 0 0 30px; 
+  	height: 33px;
+  	padding: 2px 0 3px 0;
+  	cursor: pointer; 
+  	background: rgb(139,0,139); /*I changed this color from black to purple to match the theme of my website*/
+  	color: #fff;
+	text-shadow: 1px 1px rgb(255,182,193);
+	}
+	
+.form_layout .reset { 
+	font: 100% arial; 
+	border-radius: 25px;
+  	border: 4px solid pink; 
+  	width: 100px; 
+  	margin: 0 0 100px 0; 
+  	height: 33px;
+  	padding: 2px 0 3px 0;
+  	cursor: pointer; 
+  	background:rgb(139,0,139); /*I changed this color from black to purple to match the theme of my website*/
+  	color: #fff;
+	text-shadow: 1px 1px rgb(255,182,193);
+	}
+
+/* I readjusted this so that my message box for the contact input can be longer for Project 2*/
+.form_layout textarea, .form_layout select { 
+	font: 100% arial; 
+  	width: 175px;
+	margin:0px 10px 0 10px;
+	border: 4px solid pink;
+	}
+
+.form_layout select { 
+	width: 310px;
+	}
+
+.form_layout .checkbox { 
+	margin: 4px 0; 
+  	padding: 0; 
+  	width: 14px;
+  	border: 0;
+  	background: none;
+}
+
+
+
+
+
+/* I added this to style the message box for the contact page for Project 2*/
+
+.submitStyle {
+	text-align: center;
+  font-size: 25px;
+}
+
+.addCentering { /*delete if I don't need*/
+	text-align: center;
+}
+
+
+ .floatcenter{
+	 position: static;  
+    top: 50%; 
+    left: 50%; 
+    margin-top: 25px; 
+    margin-left: 200px;
+ }
+
+#submitStyle3 { /* Tag added to make my boxes smaller to add the numeric values for Project 2*/
+	text-align: center; 
+  	width: 20px;
+    padding: 10px 10px 0px 10px;	
+	}
+	
+/* styling for the slideshow on the homepage */
+
+.slideshow
+{ width: 650px;
+  height: 300px;
+  margin-top: 20px;
+  float: left;}
+ul.slideshow {
+  list-style: none;
+  width: 650px;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+  margin: 0;}
+  
+ul.slideshow li {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  left: 0;
+  right: 0;}
+ 
+ul.slideshow li.show {
+  z-index: 500;}
+ 
+ul img {
+  border: none;}
+ 
+#slideshow-caption {
+  width: 650px;
+  height: 42px;
+  position: absolute;
+  bottom: 0;
+  left: 0; 
+  z-index: 500;}
+ 
+#slideshow-caption .slideshow-caption-container {
+  padding: 10px 25px 10px 25px; 
+  background: rgb(255,0,255);
+  z-index: 1000;}
+ 
+#slideshow-caption p {
+  padding: 0;
+  font: normal 130% arial, sans-serif;
+  color: #FFF;
+  text-shadow: 1px 1px #000;}
+
+
+	
+.feedback{ /* This styles my mock feedback default page for the radio buttons for Project 2*/
+  font: normal 170% Papyrus, Arial, sans-serif;
+  background-color: pink;
+  text-shadow: 1px 1px #FFF;
+  margin: 10px 0 10px 0;
+  text-align:center;
+  }
+  
+  .feedback2{
+  font: normal 75% Papyrus, Arial, sans-serif;
+  margin: 10px 0 10px 0;
+  text-align:center;
+  background-color: pink;
+  
+  }
+
+
+.videoBackground {
+  padding: 10px 25px 10px 25px; 
+  background: rgb(255,0,255);  
+  z-index: 10;}
+  
+  .messageBox { /*added for project 3 to style my message boxes*/
+  text-align:center;
+  width: 150px;
+  height: 150px;
+  position: static;  
+  top: 50%; 
+  left: 50%; 
+  margin-top: 25px; 
+  margin-left: 10px;
+  overflow: hidden;}
+  
+  
+  .form_settings4 .reset /* To Style my reset button for Project 4*/
+{ font: 100% arial; 
+  border: 3px solid rgb(255,182,193); 
+  width: 85px; 
+  float: left;  
+  margin: 10px 50px 0 200px; 
+  height: 26px;
+  padding: 2px 0 3px 0;
+  cursor: pointer; 
+  background: rgb(139,0,139); /*I changed this color from black to purple to match the theme of my website*/
+  border-radius: 7px 7px 7px 7px;
+  box-shadow: rgb(255,182,193, 0.5) 0px 0px 5px;
+  color: #FFF;
+  text-shadow: 1px 1px rgb(255,182,193);}
+  
+  .form_settings4 .submit /* To Style my submit button for Project 4*/
+{ font: 100% arial; 
+  border: 3px solid rgb(255,182,193); 
+  width: 85px; 
+  float:right;
+  margin: 10px 200px 60px 0px; 
+  height: 26px;
+  padding: 0px 0 3px 0;
+  cursor: pointer; 
+  background:  rgb(139,0,139);
+  border-radius: 7px 7px 7px 7px;
+  box-shadow: rgb(255,182,193, 0.5) 0px 0px 5px;
+  color: #FFF;
+  text-shadow: 1px 1px rgb(255,182,193);}
+
+
+/*CSS for the calendar on my contact page, taken from ITWP 1000*/  
+body{
+                font-family: Arial, Helvetica, sans-serif;
+			
+            }
+			
+
+            .txt{
+                width: 30px;
+			
+            }
+
+            .notThis{
+                color: #FF33CC;
+                text-align: left;
+            }
+            
+            .red {
+                color: red;
+            }
+            
+            .seldate{
+                color: #FF33CC;    
+            }
+            
+            .today{
+                text-align: center;
+                color: #FF33CC;
+                font-weight: bold;
+                            }
+
+            .thisMonth{
+                color: purple;
+                text-align: center;
+            }
+
+
+
+
+
+/*Media queries to add to my website for responsiveness.*/
+
+
+@media screen and (min-width: 300px) and (max-width: 960px){
+	.content {
+	
+		width: 90%;
+	
+		
+		
+	}
+		}
+		
+		@media screen and (min-width: 300px) and (max-width: 960px){
+	.container {
+	
+		width: 100%;
+	
+		
+		
+	}
+		}
+
+@media screen and (min-width: 300px) and (max-width: 960px){
+	#main {
+	
+		width: 96%;
+	
+		
+		
+	}
+		}
+
+
+		@media screen and (min-width: 300px) and (max-width: 960px){
+    #header_section {
+				width: 100%;
+	
+			}   
+		
+			}
+		
+	    @media screen and (min-width: 300px) and (max-width: 960px){
+	header {
+		      
+				width: 800px;
+        background: none;
+        box-shadow:none;
+      
+			
+			
+				
+			}   
+		
+		}
+		
+	    @media screen and (min-width: 300px) and (max-width: 960px){
+	#banner {
+				width: 100%;
+				
+			}   
+		
+		
+	}
+	@media screen and (min-width: 300px) and (max-width: 960px){
+	#menubar {
+				width: 100%;
+				
+			}   
+		
+	}
+	
+		@media screen and (min-width: 300px) and (max-width: 960px){
+	footer {
+				width: 100%;
+				
+			}   
+		
+	}	
+	
+
+
+
+     
+	
+	 	
+
+		@media screen and (min-width: 300px) and (max-width: 960px){
+
+	nav {
+				width: 100%;
+       
+			   word-wrap: break-word;
+			   
+			 
+			}
+
+		}
+
+		@media screen and (min-width: 300px) and (max-width: 960px){
+
+	#site_content {
+				width: 100%;
+			}
+		}
+			
+		@media screen and (min-width: 300px) and (max-width: 960px){
+
+	#content {
+				width: 100%;
+			}
+		}
+			
+		@media screen and (min-width: 300px) and (max-width: 960px){
+
+	.sidebar_container {
+			width: 100%
+  
+				
+	}	
+	}
+		@media screen and (min-width: 300px) and (max-width: 960px){
+
+	.sidebar {
+				width: 100%;
+				
+			
+			
+			}
+		}
+			
+		@media screen and (min-width: 300px) and (max-width: 960px){
+
+	.sidebar_item {
+				width: 100%;
+	
+				
+			
+			}
+		}
+		
+		
+		
+		
+				
+		@media screen and (min-width: 300px) and (max-width: 960px){
+
+	.content_imagetext {
+				width: 100%;
+			}
+		}
+			
+		@media screen and (min-width: 300px) and (max-width: 960px){
+
+	.content_image {
+				width: 100%;
+			}
+		}
+			
+		@media screen and (min-width: 300px) and (max-width: 960px){
+
+	.content_container {
+				width: 100%;
+			}
+		}
+			
+		@media screen and (min-width: 300px) and (max-width: 960px){
+
+	.content_item {
+				width:100%;
+
+			}
+		}
+			
+		@media screen and (min-width: 300px) and (max-width: 960px){
+
+	.content_addOn {
+				width: 100%;
+               
+		    }
+		}
+			
+
+		
+		@media screen and (min-width: 300px) and (max-width: 960px){
+
+	.slideshow {
+				 
+         width: 100%;
+			  
+		    }
+			
+
+		}
+		
+		
+		@media screen and (min-width: 300px) and (max-width: 960px){
+	.addOn {
+				width: 100%;
+				
+		    }
+			
+
+		}
+		
+		
+		
+		@media screen and (min-width: 300px) and (max-width: 960px){
+		p { 
+			  width:100%;
+			   
+			  
+			}
+		}
+		
+		@media screen and (min-width: 300px) and (max-width: 960px){
+        .show{
+			width: 100%;
+		
+		}
+	 }
+	 
+	 @media screen and (min-width: 300px) and (max-width: 960px){
+        #addCentering2{
+			width: 80%;
+		
+		}
+	 }
+	 
+	 @media screen and (min-width: 300px) and (max-width: 960px){
+	 .form_settings4.submit {
+	
+		width: 45%;
+		 margin: 0px 200px 0 20px;
+		 float: right;
+		 position: relative;
+	
+		
+		
+	}
+		}
+		
+		@media screen and (min-width: 300px) and (max-width: 960px){
+	 .form_settings4.reset {
+	
+		width: 50%;
+		 margin: 0px 20px 0 50px;
+		 float:left;
+		 position: relative;
+	
+		
+		
+	}
+		}
